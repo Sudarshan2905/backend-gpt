@@ -19,7 +19,7 @@ app.get("/",(req,res)=>{
 
 app.get("/test",(req,res)=>{
   res.json({
-    msg:"Test was successfull"
+    msg:"Test was successfull and env setup"
   })
 })
 
