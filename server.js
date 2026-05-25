@@ -17,6 +17,12 @@ app.get("/",(req,res)=>{
 })
 
 
+app.get("/test",(req,res)=>{
+  res.json({
+    msg:"Test was successfull"
+  })
+})
+
 app.listen(port, () =>{
   console.log(`App listening on port ${port}`);
   connectDB();
